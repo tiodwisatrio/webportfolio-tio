@@ -4,7 +4,6 @@ import "react-toastify/dist/ReactToastify.css";
 import {
   About,
   Contact,
-  Experience,
   Feedbacks,
   Hero,
   Navbar,
@@ -37,7 +36,6 @@ const App = () => {
           <Hero />
         </div>
         <About />
-        {/* <Experience /> */}
         <Tech />
         <Works />
         <Feedbacks />
