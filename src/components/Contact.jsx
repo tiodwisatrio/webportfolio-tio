@@ -90,7 +90,7 @@ const Contact = () => {
                 name="user_email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="What's your web address?"
+                placeholder="What's your email?"
                 className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
               />
             </label>
@@ -128,4 +128,3 @@ const Contact = () => {
 };
 
 export default SectionWrapper(Contact, "contact");
-

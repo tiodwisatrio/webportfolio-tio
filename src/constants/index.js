@@ -16,15 +16,13 @@ import {
   figma,
   docker,
   threejs,
-  
-
 } from "../assets";
 
-import ModernBank from '../assets/modern_bank.png'
-import Furniture from '../assets/furniture.png'
-import Cryptobase from '../assets/cryptobase.png'
+import ModernBank from "../assets/modern_bank.png";
+import Furniture from "../assets/furniture.png";
+import Cryptobase from "../assets/cryptobase.png";
 
-import Digda from '../assets/digda.jpeg'
+import Digda from "../assets/digda.jpeg";
 
 export const navLinks = [
   {
@@ -122,7 +120,7 @@ const technologies = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Tio proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -209,7 +207,7 @@ const projects = [
       {
         name: "firebase",
         color: "orange-text-gradient",
-      }
+      },
     ],
     image: Cryptobase,
     source_code_link: "https://github.com/tiodwisatrio/cryptobase",
@@ -221,18 +219,18 @@ const certificate = [
     title: "Javascript Algorithms and Data Structures",
     company: "FreeCodeCamp",
     description: "FreeCodeCamp",
-    Image : "https://www.freecodecamp.org/certification/tiodwisatrio/javascript-algorithms-and-data-structures",
+    Image:
+      "https://www.freecodecamp.org/certification/tiodwisatrio/javascript-algorithms-and-data-structures",
     link: "https://www.freecodecamp.org/certification/tiodwisatrio/javascript-algorithms-and-data-structures",
-
   },
   {
     title: "Data Engineering Professional",
     company: "Rapidminer",
     description: "Rapidminer",
-    image: "https://www.rapidminer.com/learn/certificates/5f9f9b5b-9b5b-4b5b-9b5b-9b5b9b5b9b5b",
-    link: "https://ti-user-certificates.s3.amazonaws.com/5733896a-1d71-46e5-b0a3-1ffcf845fe21/69440fb0-c6f7-4c75-a752-c6dcd371f3b0-tio-dwi-satrio-898d198c-269e-4043-8328-f9f77151dc6d-certificate.pdf"
-
-  }
-]
+    image:
+      "https://www.rapidminer.com/learn/certificates/5f9f9b5b-9b5b-4b5b-9b5b-9b5b9b5b9b5b",
+    link: "https://ti-user-certificates.s3.amazonaws.com/5733896a-1d71-46e5-b0a3-1ffcf845fe21/69440fb0-c6f7-4c75-a752-c6dcd371f3b0-tio-dwi-satrio-898d198c-269e-4043-8328-f9f77151dc6d-certificate.pdf",
+  },
+];
 
 export { services, technologies, testimonials, projects };
