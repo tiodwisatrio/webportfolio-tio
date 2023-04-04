@@ -13,6 +13,8 @@ import {
 } from "./components";
 import React, { useEffect } from "react";
 
+import Footer from "./components/Footer";
+
 const App = () => {
   // useEffect(() => {
   //   const disableContextMenu = (event) => {
@@ -29,7 +31,6 @@ const App = () => {
   return (
     <BrowserRouter>
       <ToastContainer position="top-center" theme="dark" autoClose={3000} />
-
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
@@ -44,6 +45,7 @@ const App = () => {
           <StarsCanvas />
         </div>
       </div>
+      <Footer />
     </BrowserRouter>
   );
 };
