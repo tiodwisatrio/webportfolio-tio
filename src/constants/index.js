@@ -14,9 +14,12 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  threejs,
 } from "../assets";
+
+import mysql from "../assets/mysql.png";
+import python from "../assets/python-logo.jpg";
+import bootstrap from "../assets/bootstrap.jpg";
+import nextjs from "../assets/nextjs.png";
 
 import ModernBank from "../assets/modern_bank.png";
 import Furniture from "../assets/furniture.png";
@@ -80,28 +83,32 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "bootstrap",
+    icon: bootstrap,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
     name: "Node JS",
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "mysql",
+    icon: mysql,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "python",
+    icon: python,
   },
   {
     name: "git",
@@ -110,10 +117,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -206,6 +209,31 @@ const projects = [
       },
       {
         name: "firebase",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: Cryptobase,
+    source_code_link: "https://github.com/tiodwisatrio/cryptobase",
+  },
+  {
+    name: "GrowthStreet",
+    description:
+      "A modern website built with reactjs and tailwindcss about GrowthStreet, which contains a navbar, hero section, CTA button, products, slider, product slider, contact, and more.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mysql",
         color: "orange-text-gradient",
       },
     ],
