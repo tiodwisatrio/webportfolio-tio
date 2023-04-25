@@ -22,6 +22,8 @@ import nextjs from "../assets/nextjs.png";
 import ModernBank from "../assets/modern_bank.png";
 import Furniture from "../assets/furniture.png";
 import Cryptobase from "../assets/cryptobase.png";
+import GrowthStreet from "../assets/growthStreet.png";
+import PhotoStock from "../assets/PhotoStock.png";
 
 import Digda from "../assets/digda.jpeg";
 
@@ -214,7 +216,7 @@ const projects = [
     source_code_link: "https://github.com/tiodwisatrio/cryptobase",
   },
   {
-    name: "GrowthStreet",
+    name: "Clothing Store",
     description:
       "A modern website built with reactjs and tailwindcss about GrowthStreet, which contains a navbar, hero section, CTA button, products, slider, product slider, contact, and more.",
     tags: [
@@ -223,11 +225,11 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
       {
-        name: "express.js",
+        name: "express",
         color: "green-text-gradient",
       },
       {
@@ -235,8 +237,29 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: Cryptobase,
-    source_code_link: "https://github.com/tiodwisatrio/cryptobase",
+    image: GrowthStreet,
+    source_code_link: "https://github.com/tiodwisatrio/clothing-store-server",
+  },
+  {
+    name: "Photo Stock",
+    description:
+      "A modern website built with reactjs and public api unsplash about photo stock, which contains a hero section, search feature, CTA button, download photo, and more.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+    ],
+    image: PhotoStock,
+    source_code_link: "https://github.com/tiodwisatrio/photo-booth",
   },
 ];
 
