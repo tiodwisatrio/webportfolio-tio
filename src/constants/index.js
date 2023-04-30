@@ -24,6 +24,7 @@ import Furniture from "../assets/furniture.png";
 import Cryptobase from "../assets/cryptobase.png";
 import GrowthStreet from "../assets/growthStreet.png";
 import PhotoStock from "../assets/PhotoStock.png";
+import HouseRental from "../assets/HouseRental.png";
 
 import Digda from "../assets/digda.jpeg";
 
@@ -191,6 +192,27 @@ const projects = [
     source_code_link: "https://github.com/tiodwisatrio/furniture-website",
   },
   {
+    name: "House Rental",
+    description:
+      "A modern website built with reactjs and public api unsplash about house rental, which contains a hero section, search feature, CTA button, download photo, and more.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "figma",
+        color: "green-text-gradient",
+      },
+    ],
+    image: HouseRental,
+    source_code_link: "https://github.com/tiodwisatrio/photo-booth",
+  },
+  {
     name: "Cryptobase",
     description:
       "The modern website can search, add, and modify our crypto coins from the official website using CoinGecko API. There are several sections in it, such as charts, coins, coin details, prices, and many more.",
@@ -261,6 +283,32 @@ const projects = [
     image: PhotoStock,
     source_code_link: "https://github.com/tiodwisatrio/photo-booth",
   },
+
+  // {
+  //   name: "Clothing Store",
+  //   description:
+  //     "A modern website built with reactjs and tailwindcss about GrowthStreet, which contains a navbar, hero section, CTA button, products, slider, product slider, contact, and more.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "express",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "mysql",
+  //       color: "orange-text-gradient",
+  //     },
+  //   ],
+  //   image: GrowthStreet,
+  //   source_code_link: "https://github.com/tiodwisatrio/clothing-store-server",
+  // },
 ];
 
 const certificate = [
