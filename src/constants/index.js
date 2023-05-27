@@ -150,94 +150,6 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Modern Bank",
-    description:
-      "React JS application consisting of a stunning hero section, high-quality assets and gradients, business stats, reusable feature sections with call-to-action buttons, testimonials, and more.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "figma",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ModernBank,
-    source_code_link: "https://github.com/tiodwisatrio/modern_bank",
-  },
-  {
-    name: "Furniture Website",
-    description:
-      "A modern website built with reactjs and tailwindcss about furniture sales, which contains a navbar, hero section, CTA button, products, slider, product slider, contact, and more.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "figma",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: Furniture,
-    source_code_link: "https://github.com/tiodwisatrio/furniture-website",
-  },
-  {
-    name: "House Rental",
-    description:
-      "A modern website built with reactjs and public api unsplash about house rental, which contains a hero section, search feature, CTA button, download photo, and more.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "figma",
-        color: "green-text-gradient",
-      },
-    ],
-    image: HouseRental,
-    source_code_link: "https://github.com/tiodwisatrio/photo-booth",
-  },
-  {
-    name: "Cryptobase",
-    description:
-      "The modern website can search, add, and modify our crypto coins from the official website using CoinGecko API. There are several sections in it, such as charts, coins, coin details, prices, and many more.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: Cryptobase,
-    source_code_link: "https://github.com/tiodwisatrio/cryptobase",
-  },
-  {
     name: "Clothing Store",
     description:
       "A modern website built with reactjs and tailwindcss about GrowthStreet, which contains a navbar, hero section, CTA button, products, slider, product slider, contact, and more.",
@@ -263,71 +175,70 @@ const projects = [
     source_code_link: "https://github.com/tiodwisatrio/clothing-store-server",
   },
   {
-    name: "Photo Stock",
+    name: "Cashier App",
     description:
-      "A modern website built with reactjs and public api unsplash about photo stock, which contains a hero section, search feature, CTA button, download photo, and more.",
+      "A modern website built with reactjs and tailwindcss about cashier app, which contains a navbar, hero section, CTA button, products, slider, product slider, contact, and more.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: Furniture,
+    source_code_link: "",
+  },
+  {
+    name: "Modern Bank",
+    description:
+      "React JS application consisting of a stunning hero section, high-quality assets and gradients, business stats, reusable feature sections with call-to-action buttons, testimonials, and more.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "restapi",
+        name: "tailwind",
         color: "green-text-gradient",
       },
+      {
+        name: "figma",
+        color: "pink-text-gradient",
+      },
     ],
-    image: PhotoStock,
-    source_code_link: "https://github.com/tiodwisatrio/photo-booth",
-  },
-
-  // {
-  //   name: "Clothing Store",
-  //   description:
-  //     "A modern website built with reactjs and tailwindcss about GrowthStreet, which contains a navbar, hero section, CTA button, products, slider, product slider, contact, and more.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwind",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "express",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "mysql",
-  //       color: "orange-text-gradient",
-  //     },
-  //   ],
-  //   image: GrowthStreet,
-  //   source_code_link: "https://github.com/tiodwisatrio/clothing-store-server",
-  // },
-];
-
-const certificate = [
-  {
-    title: "Javascript Algorithms and Data Structures",
-    company: "FreeCodeCamp",
-    description: "FreeCodeCamp",
-    Image:
-      "https://www.freecodecamp.org/certification/tiodwisatrio/javascript-algorithms-and-data-structures",
-    link: "https://www.freecodecamp.org/certification/tiodwisatrio/javascript-algorithms-and-data-structures",
-  },
-  {
-    title: "Data Engineering Professional",
-    company: "Rapidminer",
-    description: "Rapidminer",
-    image:
-      "https://www.rapidminer.com/learn/certificates/5f9f9b5b-9b5b-4b5b-9b5b-9b5b9b5b9b5b",
-    link: "https://ti-user-certificates.s3.amazonaws.com/5733896a-1d71-46e5-b0a3-1ffcf845fe21/69440fb0-c6f7-4c75-a752-c6dcd371f3b0-tio-dwi-satrio-898d198c-269e-4043-8328-f9f77151dc6d-certificate.pdf",
+    image: ModernBank,
+    source_code_link: "https://github.com/tiodwisatrio/modern_bank",
   },
 ];
+
+// const certificate = [
+//   {
+//     title: "Javascript Algorithms and Data Structures",
+//     company: "FreeCodeCamp",
+//     description: "FreeCodeCamp",
+//     Image:
+//       "https://www.freecodecamp.org/certification/tiodwisatrio/javascript-algorithms-and-data-structures",
+//     link: "https://www.freecodecamp.org/certification/tiodwisatrio/javascript-algorithms-and-data-structures",
+//   },
+//   {
+//     title: "Data Engineering Professional",
+//     company: "Rapidminer",
+//     description: "Rapidminer",
+//     image:
+//       "https://www.rapidminer.com/learn/certificates/5f9f9b5b-9b5b-4b5b-9b5b-9b5b9b5b9b5b",
+//     link: "https://ti-user-certificates.s3.amazonaws.com/5733896a-1d71-46e5-b0a3-1ffcf845fe21/69440fb0-c6f7-4c75-a752-c6dcd371f3b0-tio-dwi-satrio-898d198c-269e-4043-8328-f9f77151dc6d-certificate.pdf",
+//   },
+// ];
 
 export { services, technologies, testimonials, projects };
