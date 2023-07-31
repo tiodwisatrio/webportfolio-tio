@@ -44,7 +44,7 @@ const Navbar = () => {
           }}
         >
           <img src={Logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex'>
+          <p className='text-white text-[16px] font-bold cursor-pointer flex'>
             Tio &nbsp;
             <span className='sm:block hidden'> | Creative Developer</span>
           </p>
