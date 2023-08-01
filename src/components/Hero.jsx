@@ -17,17 +17,15 @@ const Hero = () => {
         </div> */}
 
         <div>
-          <div
-            className="-mt-6 flex flex-col items-center justify-center text-center"
-          >
+          <div className="-mt-6 flex flex-col items-center justify-center text-center">
             <p className={`${styles.heroSubText}`}>Hi, I'm Tio Dwi Satrio 👋</p>
             <h1 className={`${styles.heroHeadText} headtext`}>
               Fullstack Web Developer
             </h1>
-            <p className={`${styles.heroSmallText}`}>
-              <span className="font-semibold">2+ years of experiences</span> in frontend and backend development using
-              Javascript Technologies for developing a website and web
-              applications.
+            <p className={`${styles.heroSmallText} mt-3`}>
+              <span className="font-semibold">2+ years of experiences</span> in
+              frontend and backend development using Javascript Technologies for
+              developing a website and web applications.
             </p>
 
             {/* <h1 className={`${styles.heroHeadText} text-white`}>
@@ -38,9 +36,9 @@ const Hero = () => {
             </p> */}
           </div>
 
-          <div className="flex flex-row items-center justify-center mt-5">
-            <span className="w-4 h-4 rounded-full bg-[#915EFF] z-10"></span>
-            <span className="w-full md:1/2 lg:w-1/2 h-1 violet-gradient rounded-full -ml-4"></span>
+          <div className="flex flex-row items-center justify-center mt-5 mb-3">
+            <span className="w-4 h-4 rounded-full blue-pink-gradient z-10"></span>
+            <span className="w-full md:1/2 lg:w-1/2 h-[2px] purple-blue-gradient rounded-full -ml-4"></span>
             {/* <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
             <div className="w-1 sm:h-80 h-40 violet-gradient" /> */}
           </div>
