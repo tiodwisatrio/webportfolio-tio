@@ -57,8 +57,8 @@ const About = () => {
       >
         I'm a skilled software developer with experience in{" "}
         <strong>TypeScript</strong> and <strong>JavaScript</strong>, and
-        expertise in frameworks like{" "}
-        <strong>Bootstrap, Tailwind, React, Node, and Express.</strong> I'm a
+        expertise in frameworks/libraries like{" "}
+        <strong>React, Next, Node, Express, Tailwind, and Bootstrap.</strong> I'm a
         quick learner and collaborate closely with clients to create efficient,
         scalable, and user-friendly solutions that solve real-world problems.
         Let's work together to bring your ideas to life!
