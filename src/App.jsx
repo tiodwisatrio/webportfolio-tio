@@ -16,18 +16,7 @@ import React, { useEffect } from "react";
 import Footer from "./components/Footer";
 
 const App = () => {
-  // Disabled right click (context menu)
-  // useEffect(() => {
-  //   const disableContextMenu = (event) => {
-  //     event.preventDefault();
-  //   };
-
-  //   document.addEventListener("contextmenu", disableContextMenu);
-
-  //   return () => {
-  //     document.removeEventListener("contextmenu", disableContextMenu);
-  //   };
-  // }, []);
+ 
 
   return (
     <BrowserRouter>

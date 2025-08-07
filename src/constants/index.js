@@ -20,11 +20,9 @@ import bootstrap from "../assets/bootstrap.jpg";
 import nextjs from "../assets/nextjs.png";
 
 import ModernBank from "../assets/modern_bank.png";
-import Furniture from "../assets/furniture.png";
-import Cryptobase from "../assets/cryptobase.png";
+import Cashier from "../assets/image_cashier.png"
 import GrowthStreet from "../assets/growthStreet.png";
-import PhotoStock from "../assets/PhotoStock.png";
-import HouseRental from "../assets/HouseRental.png";
+
 
 import Digda from "../assets/digda.jpeg";
 
@@ -49,19 +47,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "UI/UX Design",
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: "Frontend Development",
     icon: creator,
   },
   {
-    title: "Backend Developer",
+    title: "Backend Development",
     icon: backend,
   },
   {
-    title: "UI Designer",
+    title: "Android Development",
     icon: mobile,
   },
 ];
@@ -196,8 +194,8 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: Furniture,
-    source_code_link: "",
+    image: Cashier,
+    source_code_link: "https://github.com/tiodwisatrio/cashier-server-api",
   },
   {
     name: "Modern Bank",
